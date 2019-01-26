@@ -23,25 +23,25 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+Initially to get a feel of the project I picked up code similar to the quia given in the Udacity Quiz.
+Once satisfied i slowly began replacing them with helper functions.
+I had trouble with setting up the vertices.
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+Modifying the draw_lines was very challenging and I got some help by an approach suggested by oe of the mentors.
+Finally after a lot of thought I implemented it.
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+There were silly mistakes like forgetting to put proper brackets which set me back by an hour but was tacked in the end.
 
 ![alt text][image1]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
 
+One potential shortcoming I see is that random lines appear in the videos
+Also I could not complete the challenge due to an error I believe I have already handled.
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+Another potential shorcoming would be while driving uner conditions of low light.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
